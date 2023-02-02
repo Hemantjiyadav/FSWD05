@@ -1,0 +1,372 @@
+header {
+    display: block;
+    background-color: #f4f5fc;
+}
+
+header ul {
+    padding-top: 35px;
+}
+
+header ul li {
+    list-style: none;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul li a {
+    display: block;
+    margin: 0 30px;
+    color: #4d4959;
+}
+
+.r_spacer {
+    margin-right: 180px;
+}
+
+.logo-holder {
+    background: url(../img/main-logo.png) no-repeat center center;
+    width: 94px;
+    height: 85px;
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+nav {
+    height: 85px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.hero {
+    background: url(../img/hero-bg.jpg) no-repeat top center #f4f5fc;
+    background-size: cover;
+    height: 685px;
+}
+
+.intro {
+    padding: 115px 0;
+    background-color: #fbfbfb;
+}
+
+.section-1 {
+    background: url(../img/left-box-1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.section-2 {
+    background: url(../img/left-box-2.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.section-3 {
+    background: url(../img/red-frame.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.section-4 {
+    background: url(../img/red-bike.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.section-text {
+    position: relative;
+    height: 600px;
+}
+
+.section-text p {
+    padding: 0 60px;
+    text-align: justify;
+}
+
+.arrow {
+    background: url(../img/arrow.png) no-repeat center center;
+    width: 21px;
+    height: 10px;
+    margin: -1px auto 0 auto;
+}
+
+.logo-1 {
+    width: 113px;
+    height: 118px;
+    background: url(../img/bicycle-logo.png);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -56px;
+    margin-top: -59px;
+}
+
+.logo-2 {
+    width: 177px;
+    height: 152px;
+    background: url(../img/vintage-logo.png);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -70px;
+    margin-left: -90px;
+}
+
+.logo-3 {
+    width: 208px;
+    height: 67px;
+    background: url(../img/bicycles-sml-logo.png);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -10px;
+}
+
+section ul li {
+    list-style: none;
+}
+
+.flex-container {
+	background-color: #f7f7f7;
+	padding: 125px 0 35px;
+	text-align: center;
+}
+
+.flex-twitter-icon {
+	width: 32px;
+	height: 27px;
+	background: url(../img/twitter-bird.png) no-repeat center center;
+	margin: 0 auto;
+}
+
+p.twitter-post {
+	color: #848789;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 300;
+	margin-bottom: 100px;
+}
+
+.left-box-1 {
+    width: 50%;
+    float: left;
+}
+
+.mid-box-1 {
+    width: 50%;
+    float: left;
+}
+
+.right-box-2 {
+    width: 50%;
+    float: left;
+}
+
+.right-box-3 {
+    width: 50%;
+    float: right;
+}
+
+.effects {
+    background-color: #282f35;
+}
+
+.effects .img {
+    position: relative;
+}
+
+#effect .overlay {
+    position: absolute;
+}
+
+#effect .img {
+    overflow: hidden;
+}
+
+.discover {
+    background-color: #282f35;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.shop-btn {
+    border: solid 1px #bbb;
+    padding: 15px 50px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.shop-btn:hover,
+.shop-btn:focus {
+    border: solid 2px #64c29e;
+}
+
+.sign-up {
+    text-align: center;
+}
+
+.signup-input {
+    border: solid 1px #d3d7d9;
+    padding: 25px;
+    width: 65%;
+    color: #929292;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.submit-btn {
+    background-color: #64c29e;
+    color: #fff;
+    border: solid 1px #64c29e;
+    font-weight: 300;
+    padding: 25px 50px;
+}
+
+section.sign_up {
+    padding: 40px 0 110px 0;
+}
+
+footer {
+    background-color: gray;
+    padding: 100px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 5px;
+}
+
+.footer-leftcol p {
+    text-align: left;
+}
+
+.footer-midcol {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-midcol li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.footer-midcol li a:hover {
+    opacity: 0.5;
+}
+
+.bold {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.twit-icon {
+    background: url(../img/twitter-icon.png);
+    height: 34px;
+    width: 35px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.face-icon {
+    background: url(../img/facebook-icon.png);
+    height: 34px;
+    width: 35px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.print-icon {
+    background: url(../img/pintrest-icon.png);
+    height: 34px;
+    width: 35px;
+    display: block;
+    text-indent: -9999px;
+}
+
+@media only screen and (max-width:400px){
+        
+        header{
+            display: block;
+        }
+        nav ul{
+            width: 100%;
+            /* background: #f4f5fc; */
+            position: absolute;
+            top: -25px;
+            right: 0;
+            z-index: 2;
+        }    
+       nav ul li{
+        display: block;
+        margin-top: 0;
+        margin-bottom: 10px;
+       } 
+       nav ul li a{
+            color: red;
+       }
+      .logo-holder{
+        display: center;
+         width: 70px;
+         height: 80px;
+      } 
+      .hero{
+        width: 390px;
+      }
+
+}
+
+@media only screen and (min-width:400px) and (max-width:600px){
+
+    nav ul{
+        width: 100%;
+        background: #f4f5fc;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }    
+   nav ul li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   } 
+   nav ul li a{
+        color: purple;
+   }
+  .logo-holder{
+    display:block;
+    align-items: center;
+  } 
+}
+
+@media only screen and (min-width:600px) and (max-width:1024px){
+    nav ul{
+        width: 100%;
+        background: #f4f5fc;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }    
+   nav ul li{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   } 
+   nav ul li a{
+        color: blue;
+   }
+  .logo-holder{
+    display:block;
+    align-items: center;
+  } 
+    
+}
