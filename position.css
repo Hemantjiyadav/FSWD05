@@ -1,0 +1,32 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    left: 50px;
+}
+p{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    left: 20px;
+}
+#parent{
+    height: 100px;
+    width: 150px;
+    position: relative;
+    background-color: blue;
+}
+#child{
+    height: 50px;
+    width: 100px;
+    top: 100px;
+    position:static;
+    background-color: antiquewhite;
+}
+#sticky{
+        background-color: darkblue;
+        position: sticky;
+        top: 600px;
+        left: 20px;
+}

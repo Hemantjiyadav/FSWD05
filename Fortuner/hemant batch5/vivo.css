@@ -1,0 +1,14 @@
+body{
+    background-color: gold;
+    color: blue;
+    text-align: center;
+    font-size: medium;
+}
+table>tr>td>div>img{
+    width: 50%;
+    height: 20%;
+}
+footer>table>tr>td>img{
+    width: 20px;
+    height: 20px;
+}

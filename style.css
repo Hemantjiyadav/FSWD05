@@ -1,0 +1,35 @@
+/* external css*/
+div{
+    height: 200px;
+    background-color: blue;
+}
+p{
+    height:100px;
+    width:80%;
+    background-color:aquamarine;
+    color: crimson;
+    text-align:center;
+    text-decoration: solid;
+    text-transform:lowercase;
+    text-overflow:clip;
+    overflow: scoll;
+    text-indent:20px;
+    margin: 20px;
+    border:2px solid black;
+    padding: 20px;
+}
+#shadow{
+    text-shadow:10px 20px blueviolet;
+    background-color:white;
+}
+#paral{
+    height:300px;
+    background-color:hsla(120,50%,50%,0.9);
+    opacity:0.4;
+    color: blanchedalmond;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+
+}
