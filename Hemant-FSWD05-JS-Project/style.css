@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 55%;
+}
+
+.main-div {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: aquamarine;
+}
+
+h4{
+    font-size: 2rem;
+}
+h1{
+    font-size: 8rem;
+    padding: 1rem 0 1rem 0;
+}
+
+.inner-div {
+    width: 70vw;
+    background-color: #fff;
+    padding: 3rem 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem 0.4rem gray;
+}
+
+.inner-div h2 {
+    margin: 1rem 0 3rem 0;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.inner-div li {
+    margin-top: 1.5rem;
+    font-size: 3rem;
+    list-style: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+#submit,
+.btn {
+    padding: 1rem 3rem;
+    margin: auto;
+    margin-top: 4rem;
+    color: #fff;
+    background-color: rgb(58, 202, 221);
+    font-size: 2rem;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    display: block;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(20, 83, 219);
+}
+
+#showScore {
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    background-color: gray;
+    box-shadow: 0 1rem 1rem 0.4rem gray;
+}
+
+#showScore h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showScore .btn:hover {
+    margin-top: 2rem;
+    background-color: #55efc4;
+    color: #2d3436;
+}
+
+.scoreArea {
+    display: none;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    html {
+        font-size: 25%;
+    }
+
+    .main-div {
+        background-color: rgb(149, 237, 208);
+    }
+
+    .inner-div {
+        width: 70vw;
+        background-color: #ffffffce;
+        padding: 1.5rem 3.5rem;
+        border-radius: 5rem;
+    }
+
+    .inner-div li {
+        margin-top: 1.5rem;
+        font-size: 3rem;
+        list-style: none;
+    }
+
+    #submit,
+    .btn {
+        padding: 1rem 3rem;
+        margin: auto;
+        margin-top: 4rem;
+        color: #fff;
+        background-color: rgb(58, 202, 221);
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    #submit:hover {
+        background-color: rgb(20, 83, 219);
+    }
+
+    #showScore {
+        background-color: rgb(235, 233, 135);
+    }
+
+    #showScore h3 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:700px) {
+
+    html {
+        font-size: 43%;
+    }
+
+    .main-div {
+        width: 100vw;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background-color: rgb(89, 233, 185);
+    }
+
+    .inner-div {
+        width: 70vw;
+        background-color: #ffffffbd;
+        padding: 3rem 2rem;
+        border-radius: 7rem;
+        box-shadow: 0 1rem 1rem 0.4rem gray;
+    }
+
+    .inner-div h2 {
+        margin: 1rem 0 4rem 0;
+        font-size: 3.5rem;
+        font-weight: 400;
+    }
+
+    .inner-div li {
+        margin-top: 1.5rem;
+        font-size: 3rem;
+        list-style: none;
+    }
+
+}
+
+@media only screen and (min-width:700px) and (max-width:1024px) {
+
+    html {
+        font-size: 60%;
+    }
+
+    .main-div {
+        width: 100vw;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background-color: aquamarine;
+    }
+
+    .inner-div {
+        width: 70vw;
+        background-color: #ffffffdd;
+        padding: 4rem 6rem;
+        border-radius: 9rem;
+        box-shadow: 0 1rem 1rem 0.4rem gray;
+    }
+
+    .inner-div h2 {
+        margin: 1rem 0 4rem 0;
+        font-size: 3.5rem;
+    }
+
+    .inner-div li {
+        margin-top: 1.5rem;
+        font-size: 3rem;
+    }
+
+}
