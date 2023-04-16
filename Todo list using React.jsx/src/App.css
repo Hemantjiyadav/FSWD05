@@ -1,0 +1,14 @@
+.card-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:1.1rem;
+}
+.card{
+    width: 100% !important;
+    height: auto;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #fff;
+    background: url(https://th.bing.com/th/id/OIP.M2kpqYLJ4uGs7lk0I4OgmgHaEo?pid=ImgDet&w=205&h=128&c=7) no-repeat center center/cover;
+}
+body{
+    background: url(https://th.bing.com/th/id/OIP.L3f9fulkqcuLUl3L3LhNaAHaEK?w=322&h=181&c=7&r=0&o=5&pid=1.7) no-repeat center center/cover;
+}
